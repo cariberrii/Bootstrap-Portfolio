@@ -6,6 +6,46 @@
   
   }
 
+  /* header style */
+
+.header {
+    background-color: var(--black);
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+ 
+.navbar {
+    background-color: var(--black) !important;
+    padding: 0;
+  }
+
+.no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.brandText {
+    background: var(--white);
+    padding-left: 25px;
+    padding-right: 5px;
+    border-bottom: 3px solid var(--orange);
+    border-right: 2px solid var(--orange);
+    font-size: 32px;
+    color: var(--black);
+    margin-left: 0;
+}
+
+.navText {
+    color: var(--white);
+    font-size: 18px;
+    margin: 5px;
+    padding: 5px;
+    border-bottom: 2px solid var(--orange);
+}
+
+.navText:hover {
+    color: var(--orange);
+}
 
   /* hero style */
 
