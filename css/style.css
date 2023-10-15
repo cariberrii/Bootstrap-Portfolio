@@ -24,6 +24,10 @@
     padding-right: 0px;
 }
 
+.navMargin {
+    margin-right: 80px;
+}
+
 .brandText {
     background: var(--white);
     padding-left: 25px;
@@ -43,6 +47,9 @@
     border-bottom: 2px solid var(--orange);
 }
 
+.brandText:hover {
+    color: var(--black);
+}
 .navText:hover {
     color: var(--orange);
 }
@@ -121,9 +128,29 @@
     top: auto;
 }
 
+.cardEffect:hover {
+    border: 4px solid var(--orange);
+    border-radius: -5px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    transition: background-image 0.5s ease-in-out;
+}
+
+/* .card-deck:hover {
+    border-radius: 0;
+}
+
+.card-img:hover {
+    object-fit: cover;
+    border-radius: 0;
+} */
+
 /* footer style */
 
 .contactFooter {
     margin-right: 60px;
     margin-bottom: 30px;
+}
+
+i:hover {
+    filter: drop-shadow(3px 4px 3px rgba(255, 165, 0, 0.6));
 }
