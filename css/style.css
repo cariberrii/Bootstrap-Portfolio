@@ -74,7 +74,8 @@
 .page-wrapper {
     margin-top: 30px;
     margin-right: 60px;
-    margin-bottom: 80px;
+    /* if contact is in footer section */
+    /* margin-bottom: 80px; */
   }
 
 .sectionTitle {
@@ -118,4 +119,11 @@
     display: grid;
     align-content: end;
     top: auto;
+}
+
+/* footer style */
+
+.contactFooter {
+    margin-right: 60px;
+    margin-bottom: 30px;
 }
