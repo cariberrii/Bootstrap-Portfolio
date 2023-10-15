@@ -47,7 +47,7 @@
         <section class="page-section" id="about">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="aboutTitle col-sm-12 col-md-3">
+                    <div class="aboutTitle col-sm-12 col-md-3 titleContainer">
                         <h3 class="sectionTitle">About Me</h3>
                     </div>
                     <div class="aboutContent col-sm-12 col-md-9">
@@ -74,26 +74,28 @@
         <section class="page-section" id="work">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="workTitle col-sm-12 col-md-3">
+                    <div class="workTitle col-sm-12 col-md-3 titleContainer">
                         <h3 class="sectionTitle">Work</h3>
                     </div>
                     <!-- projects grid container-->
                     <div class="workContent col-sm-12 col-md-9">
-                        <div class="container-fluid">
-                            <div class="row">
+                        <div class="container-fluid d-flex flex-column h-100">
+                            <div class="row flex-grow-1">
                                 <!-- project 1 card -->
-                                <div class="project-1 col-sm-12 col-md-12">
-                                    <div class="card text-bg-dark">
+                                <div class="card-deck col-sm-12 col-md-12" id="project-1">
+                                    <div class="card text-bg-dark overlay-position">
                                         <img src="assets/images/project_Horiseon.jpg" class="card-img" alt="Marketing team strategizing in office space around large table.">
-                                        <div class="card-img-overlay">
+                                        <div class="card-img-overlay heading">
                                           <h4 class="card-title">Horiseon</h4>
-                                          <p class="card-text">Refactoring of HTML/CSS to improve accessibility and efficiency of code.</p>
+                                          <p class="card-text">HTML/CSS Accessibility Refactor</p>
                                         </div>
                                       </div>
                                 </div>
+                            </div>
+                            <div class="row flex-grow-1">
                                 <!-- project 2 card -->
-                                <div class="project-2 col-sm-12 col-md-6">
-                                    <div class="card text-bg-dark">
+                                <div class="card-deck col-sm-12 col-md-6" id="project-2">
+                                    <div class="card text-bg-dark smallCard">
                                         <img src="assets/images/project_PetMatch.jpeg" class="card-img" alt="Man and woman lovingly pose with their new dog.">
                                         <div class="card-img-overlay">
                                           <h4 class="card-title">Pet Match</h4>
@@ -102,8 +104,8 @@
                                       </div>
                                 </div>
                                 <!-- project 3 card -->
-                                <div class="project-3 col-sm-12 col-md-6">
-                                    <div class="card text-bg-dark">
+                                <div class="card-deck col-sm-12 col-md-6" id="project-3">
+                                    <div class="card text-bg-dark smallCard">
                                         <img src="assets/images/project_BookSwap.jpg" class="card-img" alt="A page in a book shows an old advertisement for global travel with two illustrated views of the earth in blue ink.">
                                         <div class="card-img-overlay">
                                           <h4 class="card-title">Book Swap</h4>
@@ -112,8 +114,8 @@
                                       </div>
                                 </div>
                                 <!-- project 4 card -->
-                                <div class="project-4 col-sm-12 col-md-6">
-                                    <div class="card text-bg-dark">
+                                <div class="card-deck col-sm-12 col-md-6" id="project-4">
+                                    <div class="card text-bg-dark smallCard">
                                         <img src="assets/images/project_DrinkMate.jpg" class="card-img" alt="A close up of three cold pints of beer.">
                                         <div class="card-img-overlay">
                                           <h4 class="card-title">Drink Mate</h4>
@@ -122,8 +124,8 @@
                                       </div>
                                 </div>
                                 <!-- project 5 card -->
-                                <div class="project-5 col-sm-12 col-md-6">
-                                    <div class="card text-bg-dark">
+                                <div class="card-deck col-sm-12 col-md-6" id="project-5">
+                                    <div class="card text-bg-dark smallCard">
                                         <img src="assets/images/project_SeenIt.webp" class="card-img" alt="Close view of apps available on a tv screen.">
                                         <div class="card-img-overlay">
                                           <h4 class="card-title">Seen It</h4>
@@ -143,7 +145,7 @@
         <section class="page-section" id="contact">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="workTitle col-sm-12 col-md-3">
+                    <div class="workTitle col-sm-12 col-md-3 titleContainer">
                         <h3 class="sectionTitle">Contact Me</h3>
                     </div>
                     <div class="contactContent col-sm-12 col-md-9">
