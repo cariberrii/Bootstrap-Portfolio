@@ -1,153 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- meta tags -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
     <!-- FontAwesome -->
-    <script src="https://kit.fontawesome.com/fea14404d3.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/fea14404d3.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet" />
 
     <title>Cari Fillingham // Web Developer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- main logo / nav -->
     <header class="header">
-        <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid no-padding">
-              <h1 class="navbar-brand brandText">Cari Fillingham</h1>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto navMargin">
-                  <a class="nav-link navText" href="#about">About Me</a>
-                  <a class="nav-link navText" href="#work">Work</a>
-                  <a class="nav-link navText" href="#contact">Contact Me</a>                  
-                </div>
-              </div>
+      <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid no-padding">
+          <h1 class="navbar-brand brandText">Cari Fillingham</h1>
+          <div class="navbar">
+            <div class="navbar-nav ms-auto navMargin">
+              <a class="nav-link navText" href="#about">About Me</a>
+              <a class="nav-link navText" href="#work">Work</a>
+              <a class="nav-link navText" href="#contact">Contact Me</a>
             </div>
-          </nav>  
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- hero banner -->
     <div class="p-5 text-center bg-body-tertiary heroBackground">
-        <h2 class="text-body-emphasis allGood">It's all good...</h2>
-          <!-- <p class="col-lg-8 mx-auto lead">
-            This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
-          </p> -->
+      <h2 class="text-body-emphasis allGood">It's all good...</h2>
     </div>
 
     <main class="page-wrapper">
-        <!-- about me container -->
-        <section class="page-section" id="about">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="aboutTitle col-sm-12 col-md-3 titleContainer">
-                        <h3 class="sectionTitle">About Me</h3>
-                    </div>
-                    <div class="aboutContent col-sm-12 col-md-9">
-                        <div class="card mb-3">
-                            <div class="row g-0">
-                              <div class="col-sm-3">
-                                <img src="assets/images/profile_pic.jpg" class="img-fluid rounded-start" alt="Black and white portrait of Cari Fillingham from the shoulders up with the left side of her face in shadow.">
-                              </div>
-                              <div class="col-sm-9">
-                                <div class="card-body">
-                                  <p class="card-text">It's true. You can take the girl out of California but you can't take the California out of the girl. I grew up on the Central Coast in a small beach town and have lived in some big cities since. LA was the first, then came London. Since completing my Post Grad Dip in Photography at UAL and moving back to California for a while, I got married and moved to York - old York. Over the years, I've explored many career paths and a wide array of interests. Though only two have stuck. Photography goes way back, and now that I think of it - Web Development goes back even further. Remember Neopets? I reverse engineered my first websites at the age of 7 to make a kickass homepage for my Kacheek and her Petpets. (May need to revisit soon.) As of late, I seized an opportunity to learn Front-End Web Development in my 30s in order to make a living doing something that I will enjoy for many more years to come. 
-                                    <br>*Insert "Life's a journey" statement here.* </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                </div>
+      <!-- about me container -->
+      <section class="page-section" id="about">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="aboutTitle col-sm-12 col-md-3 titleContainer">
+              <h3 class="sectionTitle">About Me</h3>
             </div>
-        </section>
-        <br />
+            <div class="aboutContent col-sm-12 col-md-9 sectionContainer">
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-sm-3">
+                    <img
+                      src="assets/images/profile_pic.jpg"
+                      class="img-fluid rounded-start"
+                      alt="Black and white portrait of Cari Fillingham from the shoulders up with the left side of her face in shadow."
+                    />
+                  </div>
+                  <div class="col-sm-9">
+                    <div class="card-body">
+                      <p class="card-text">
+                        It's true. You can take the girl out of California but
+                        you can't take the California out of the girl. I grew up
+                        on the Central Coast in a small beach town and have
+                        lived in some big cities since. LA was the first, then
+                        came London. Since completing my Post Grad Dip in
+                        Photography at UAL and moving back to California for a
+                        while, I got married and moved to York - old York. Over
+                        the years, I've explored many career paths and a wide
+                        array of interests. Though only two have stuck.
+                        Photography goes way back, and now that I think of it -
+                        Web Development goes back even further. Remember
+                        Neopets? I reverse engineered my first websites at the
+                        age of 7 to make a kickass homepage for my Kacheek and
+                        her Petpets. (May need to revisit soon.) As of late, I
+                        seized an opportunity to learn Front-End Web Development
+                        in my 30s in order to make a living doing something that
+                        I will enjoy for many more years to come. <br />*Insert
+                        "Life's a journey" statement here.*
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
 
-        <!-- work container -->
-        <section class="page-section" id="work">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="workTitle col-sm-12 col-md-3 titleContainer">
-                        <h3 class="sectionTitle">Work</h3>
-                    </div>
-                    <!-- Work grid container-->
-                    <div class="workContent col-sm-12 col-md-9">
-                        <div class="container-fluid d-flex flex-column h-100">
-                            <div class="row flex-grow-1">
-                                <!-- project 1 card -->
-                                <a
-                                href="https://cariberrii.github.io/horiseon-refactor-accessible/"
-                                target="_blank" class="card-deck col-sm-12 col-md-12" id="project-1">
-                                    <div class="card text-bg-dark overlay-position cardEffect">
-                                        <img src="assets/images/project_Horiseon.jpg" class="card-img" alt="Marketing team strategizing in office space around large table.">
-                                        <div class="card-img-overlay heading">
-                                          <h4 class="card-title">Horiseon</h4>
-                                          <p class="card-text">HTML/CSS Accessibility Refactor</p>
-                                        </div>
-                                      </div>
-                                </a>
-                            </div>
-                            <div class="row flex-grow-1">
-                                <!-- project 2 card -->
-                                <a href="#project-2" target="_blank" class="card-deck col-sm-12 col-md-6" id="project-2">
-                                    <div class="card text-bg-dark smallCard cardEffect">
-                                        <img src="assets/images/project_PetMatch.jpeg" class="card-img" alt="Man and woman lovingly pose with their new dog.">
-                                        <div class="card-img-overlay">
-                                          <h4 class="card-title">Pet Match</h4>
-                                          <p class="card-text">Coming soon...</p>
-                                        </div>
-                                      </div>
-                                </a>
-                                <!-- project 3 card -->
-                                <a href="#project-3" target="_blank" class="card-deck col-sm-12 col-md-6" id="project-3">
-                                    <div class="card text-bg-dark smallCard cardEffect">
-                                        <img src="assets/images/project_BookSwap.jpg" class="card-img" alt="A page in a book shows an old advertisement for global travel with two illustrated views of the earth in blue ink.">
-                                        <div class="card-img-overlay">
-                                          <h4 class="card-title">Book Swap</h4>
-                                          <p class="card-text">Coming soon...</p>
-                                        </div>
-                                      </div>
-                                </a>
-                                <!-- project 4 card -->
-                                <a href="#project-4" target="_blank" class="card-deck col-sm-12 col-md-6" id="project-4">
-                                    <div class="card text-bg-dark smallCard cardEffect">
-                                        <img src="assets/images/project_DrinkMate.jpg" class="card-img" alt="A close up of three cold pints of beer.">
-                                        <div class="card-img-overlay">
-                                          <h4 class="card-title">Drink Mate</h4>
-                                          <p class="card-text">Coming soon...</p>
-                                        </div>
-                                      </div>
-                                </a>
-                                <!-- project 5 card -->
-                                <a href="#project-5" target="_blank" class="card-deck col-sm-12 col-md-6" id="project-5">
-                                    <div class="card text-bg-dark smallCard cardEffect">
-                                        <img src="assets/images/project_SeenIt.webp" class="card-img" alt="Close view of apps available on a tv screen.">
-                                        <div class="card-img-overlay">
-                                          <h4 class="card-title">Seen It</h4>
-                                          <p class="card-text">Coming soon...</p>
-                                        </div>
-                                      </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <!-- work container -->
+      <section class="page-section" id="work">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="workTitle col-sm-12 col-md-3 titleContainer">
+              <h3 class="sectionTitle">Work</h3>
             </div>
-        </section>
-        <br />
+            <!-- Work grid container-->
+            <div class="workContent col-sm-12 col-md-9 sectionContainer">
+              <div class="container-fluid d-flex flex-column h-100">
+                <div class="row flex-grow-1">
+                  <!-- project 1 card -->
+                  <a
+                    href="https://cariberrii.github.io/horiseon-refactor-accessible/"
+                    target="_blank"
+                    class="card-deck col-sm-12 col-md-12"
+                    id="project-1"
+                  >
+                    <div class="card text-bg-dark overlay-position cardEffect">
+                      <img
+                        src="assets/images/project_Horiseon.jpg"
+                        class="card-img"
+                        alt="Marketing team strategizing in office space around large table."
+                      />
+                      <div class="card-img-overlay heading">
+                        <h4 class="card-title">Horiseon</h4>
+                        <p class="card-text">HTML/CSS Accessibility Refactor</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="row flex-grow-1">
+                  <!-- project 2 card -->
+                  <a
+                    href="#project-2"
+                    target="_blank"
+                    class="card-deck col-sm-12 col-md-6"
+                    id="project-2"
+                  >
+                    <div class="card text-bg-dark smallCard cardEffect">
+                      <img
+                        src="assets/images/project_PetMatch.jpeg"
+                        class="card-img"
+                        alt="Man and woman lovingly pose with their new dog."
+                      />
+                      <div class="card-img-overlay">
+                        <h4 class="card-title">Pet Match</h4>
+                        <p class="card-text">Coming soon...</p>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- project 3 card -->
+                  <a
+                    href="#project-3"
+                    target="_blank"
+                    class="card-deck col-sm-12 col-md-6"
+                    id="project-3"
+                  >
+                    <div class="card text-bg-dark smallCard cardEffect">
+                      <img
+                        src="assets/images/project_BookSwap.jpg"
+                        class="card-img"
+                        alt="A page in a book shows an old advertisement for global travel with two illustrated views of the earth in blue ink."
+                      />
+                      <div class="card-img-overlay">
+                        <h4 class="card-title">Book Swap</h4>
+                        <p class="card-text">Coming soon...</p>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- project 4 card -->
+                  <a
+                    href="#project-4"
+                    target="_blank"
+                    class="card-deck col-sm-12 col-md-6"
+                    id="project-4"
+                  >
+                    <div class="card text-bg-dark smallCard cardEffect">
+                      <img
+                        src="assets/images/project_DrinkMate.jpg"
+                        class="card-img"
+                        alt="A close up of three cold pints of beer."
+                      />
+                      <div class="card-img-overlay">
+                        <h4 class="card-title">Drink Mate</h4>
+                        <p class="card-text">Coming soon...</p>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- project 5 card -->
+                  <a
+                    href="#project-5"
+                    target="_blank"
+                    class="card-deck col-sm-12 col-md-6"
+                    id="project-5"
+                  >
+                    <div class="card text-bg-dark smallCard cardEffect">
+                      <img
+                        src="assets/images/project_SeenIt.webp"
+                        class="card-img"
+                        alt="Close view of apps available on a tv screen."
+                      />
+                      <div class="card-img-overlay">
+                        <h4 class="card-title">Seen It</h4>
+                        <p class="card-text">Coming soon...</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
     </main>
-</body>
-        <!-- contact container -->
-        <!-- <section class="page-section" id="contact">
+    <!-- js scripts here -->
+    <!-- note jquery tag has to go before boostrap -->
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  </body>
+  <!-- contact container -->
+  <!-- <section class="page-section" id="contact">
             <div class="container-fluid">
                 <div class="row">
                     <div class="workTitle col-sm-12 col-md-3 titleContainer">
@@ -175,40 +245,84 @@
                 </div>
             </div>
         </section> -->
-    <!-- </main> -->
-    
-<!-- </body> -->
+  <!-- </main> -->
 
-<footer>
+  <!-- </body> -->
+
+  <footer>
     <!-- contact container -->
     <section class="page-section contactFooter" id="contact">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="workTitle col-sm-12 col-md-3 titleContainer">
-                    <h3 class="sectionTitle">Contact Me</h3>
-                </div>
-                <div class="contactContent col-sm-12 col-md-9">
-                    <ul class="nav justify-content-center">
-                        <li class="nav-item">
-                          <a class="nav-link" href="tel:+447932651150"><i class="fa-solid fa-phone fa-3x" style="color: #ffa500;"></i></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="mailto:ca.fillingham@gmail.com"><i class="fa-regular fa-envelope fa-3x" style="color: #ffa500;"></i></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="https://github.com/cariberrii" target="_blank"><i class="fa-brands fa-github fa-3x" style="color: #ffa500;"></i></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="https://www.instagram.com/cariaddyphotography/" target="_blank"><i class="fa-brands fa-instagram fa-3x" style="color: #ffa500;"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="https://spotify.link/wJLf27tiJDb" target="_blank"><i class="fa-brands fa-spotify fa-3x" style="color: #ffa500;"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="workTitle col-sm-12 col-md-3 titleContainer">
+            <h3 class="sectionTitle">Contact Me</h3>
+          </div>
+          <div class="contactContent col-sm-12 col-md-9 sectionContainer">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link" href="tel:+447932651150" aria-label="Phone"
+                  ><i
+                    class="fa-solid fa-phone fa-3x"
+                    title="Call Cari"
+                    style="color: #ffa500"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="mailto:ca.fillingham@gmail.com"
+                  aria-label="Email"
+                  ><i
+                    class="fa-regular fa-envelope fa-3x"
+                    title="Send Email"
+                    style="color: #ffa500"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://github.com/cariberrii"
+                  aria-label="GitHub"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-github fa-3x"
+                    title="Visit GitHub"
+                    style="color: #ffa500"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/cariaddyphotography/"
+                  aria-label="Instagram"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-instagram fa-3x"
+                    title="Visit Instagram"
+                    style="color: #ffa500"
+                  ></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://spotify.link/wJLf27tiJDb"
+                  aria-label="Spotify"
+                  target="_blank"
+                  ><i
+                    class="fa-brands fa-spotify fa-3x"
+                    title="Visit Spotify"
+                    style="color: #ffa500"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
-
-</footer>
+  </footer>
 </html>
